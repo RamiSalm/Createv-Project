@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="news-list.html">Patient platform</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="" class="btn text-white btn-lg back-arrow m-0">
+            <i class="bi bi-arrow-left-square-fill"></i>
+        </a>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <option value="as"></option>
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="login.html">login</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column m-auto">
+                        <li class="nav-item nav-title">
+                            <i class="bi bi-newspaper my-icons"></i>
+                            News
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link " aria-current="page" href="news-list.html">
+                                News list
+                            </a>
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link " href="news-add.html">
+                                Add News
+                            </a>
+                        </li>
+                        <li class="nav-item nav-title">
+                            <i class="bi bi-person-lines-fill"></i>
+                            Patients
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link " aria-current="page" href="patient-list.html">
+                                Patient list
+                            </a>
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link" href="patient-add.html">
+                                Add Patient
+                            </a>
+                        </li>
+                        <li class="nav-item nav-title">
+                            <i class="bi bi-people-fill"></i>
+                            Staff
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link " aria-current="page" href="news-list.html">
+                                Staff list
+                            </a>
+                        </li>
+                        <li class="nav-item nav-sub">
+                            <a class="nav-link" href="news-add.html">
+                                Add Staff
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-title active" href="register.html">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                                Register
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <main class=" form-signin">
+                <form>
+                    <h1 class="h3 mb-3 fw-normal text-center">Register</h1>
+                    
+                    <label for="inputTitle " class="visually-hidden">Name</label>
+                    <input type="text" id="inputTitle " class="form-control" placeholder="Name" required autofocus>
+
+                    <label for="inputTitle " class="visually-hidden">Email</label>
+                    <input type="text" id="inputTitle " class="form-control" placeholder="Email" required autofocus>
+
+                    <label for="inputTitle " class="visually-hidden">Password</label>
+                    <input type="text" id="inputTitle " class="form-control" placeholder="Password" required autofocus>
+
+                    <label for="inputTitle " class="visually-hidden">Confirm Password</label>
+                    <input type="text" id="inputTitle " class="form-control" placeholder="Confirm Password" required autofocus>
+
+                    <button class="w-100 btn btn-lg btn-primary my-5" type="submit">Register</button>
+                </form>
+            </main>
+
+
+        </div>
+    </div>
+
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+        integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+        crossorigin="anonymous"></script>
+    <script src="/js/news.js"></script>
+</body>
+
+</html>
